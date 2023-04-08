@@ -1,4 +1,5 @@
 import React from 'react';
+import { About } from './About';
 
 class Home extends React.Component{
     render(){
@@ -19,9 +20,9 @@ class Home extends React.Component{
 			<ul> 
 				<li>
 					<img src="English Pics 2/Dong Ho pic2.jpg" alt="Product 1"/>
-					<p><a href="new.asp" target="_self">Đông Hồ (mới)</a></p>
+					<p><a>Đông Hồ (mới)</a></p>
 					<p>$20</p>
-					<button>Add to Cart</button>
+					<button type="button" onClick={About()}>Add to Cart</button>
 				</li>
 				<li>
 					<img src="English Pics 2/Dong Ho pic.jpg" alt="Product 2"/>
