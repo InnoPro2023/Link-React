@@ -1,0 +1,64 @@
+/*apply style for all sections */
+* {
+	font-family: Arial, sans-serif;
+
+}
+/* edit style for header */
+header {
+	background-color: #333;
+	color: #fff; /* word's color*/
+	padding: 10px; /*  generate space around an element's content(this is not necessary,it just makes the header cleaner a little bit, you can remove this line if you want */
+	display: flex; /* im done with explaining functions for each line,gotta just put some important comments */
+	justify-content: space-between;
+	align-items: center;
+}
+/* edit style for section <ul> IN section <nav> */
+nav ul {
+	list-style: none;
+	display: flex;
+}
+/* you figure it out by your self now, i'v explained above */
+nav li {
+	padding-right: 20px; /*in this situation margin-right is ok too */
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	max-width: 1200px;
+	margin:auto;
+
+}
+/* edit style for <li> in "products" class */
+.products li {
+	display: inline-block;
+	padding: 30px;
+	text-align: center;
+}
+
+.products img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+}
+
+.products p {
+	color: red;
+}
+
+.products button {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 21px;
+	cursor: pointer;
+}
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
