@@ -1,7 +1,7 @@
 export const About = () => {
     return (
         <div>
-            About Page
+            alert("About")
         </div>
     )
 }
