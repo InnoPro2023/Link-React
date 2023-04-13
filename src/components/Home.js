@@ -1,5 +1,5 @@
 import React from 'react';
-import { About } from './About';
+import { Outlet, Link } from 'react-router-dom';
 
 class Home extends React.Component{
     render(){
@@ -28,7 +28,7 @@ class Home extends React.Component{
 					<img src="English Pics 2/Dong Ho pic.jpg" alt="Product 2"/>
 					<h3>Đông Hồ</h3>
 					<p>$20</p>
-					<button onClick={About}>Add to Cart</button>
+					<button><Link to="/About">Add to Cart</Link></button>
 				</li>
 				<li>
 					<img src="English Pics 2/Dong Ho pic3.jpg" alt="Product 3"/>
