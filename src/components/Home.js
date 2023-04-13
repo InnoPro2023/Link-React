@@ -20,9 +20,9 @@ class Home extends React.Component{
 			<ul> 
 				<li>
 					<img src="English Pics 2/Dong Ho pic2.jpg" alt="Product 1"/>
-					<p><a>Đông Hồ (mới)</a></p>
+					<p id="demo"><a>Đông Hồ (mới)</a></p>
 					<p>$20</p>
-					<button type="button" onClick={About()}>Add to Cart</button>
+					<button>Add to Cart</button>
 				</li>
 				<li>
 					<img src="English Pics 2/Dong Ho pic.jpg" alt="Product 2"/>
