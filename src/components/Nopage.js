@@ -1,4 +1,4 @@
-export const About = () => {
+export const  Nopage = () => {
     return (
         <div>
             404 Not Found
