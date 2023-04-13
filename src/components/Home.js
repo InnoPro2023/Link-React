@@ -28,7 +28,7 @@ class Home extends React.Component{
 					<img src="English Pics 2/Dong Ho pic.jpg" alt="Product 2"/>
 					<h3>Đông Hồ</h3>
 					<p>$20</p>
-					<button><Link to="/About">Add to Cart</Link></button>
+					<Link to="/About">Add to Cart</Link>
 				</li>
 				<li>
 					<img src="English Pics 2/Dong Ho pic3.jpg" alt="Product 3"/>
