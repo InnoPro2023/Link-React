@@ -4,7 +4,7 @@ export const Navbar = () => {
     const navLinkStyles = ({ isActive }) => {
         return {
             fontWeight: isActive ? 'bold' : 'normal',
-            color: isActive ? 'blue' : 'color,'
+            fontColor: isActive ? 'blue' : 'color,'
         }
     }
     return (
