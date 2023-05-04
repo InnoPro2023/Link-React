@@ -3,16 +3,19 @@ import  Home  from './components/Home';
 import { Navbar } from './components/Navbar';
 import About from './components/About';
 import { Nopage } from './components/Nopage';
+import "./App.css";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='About' element={<About/>}/>
-        <Route path='*' element={<Nopage />} />
-      </Routes>
+      <div className='App'>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='About' element={<About/>}/>
+          <Route path='*' element={<Nopage />} />
+        </Routes>
+      </div>
     </>
   );
 }

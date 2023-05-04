@@ -86,7 +86,7 @@ class Home extends React.Component{
 	<footer>
 		<h1>None</h1>
 	</footer>
-        </div>
+</div>
         )
     }
 }
